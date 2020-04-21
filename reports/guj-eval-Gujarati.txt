@@ -1,0 +1,789 @@
+----------------------------------------------------------------------------- guj
+ ********************Gujarati ***** guj ***** parth ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   29679   Characters
+    3172   Errors
+   89.31%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   89.31%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     732     1791      649     3172   Unmarked
+     732     1791      649     3172   Total
+
+   Count   Missed   %Right
+    3293        1    99.97   ASCII Spacing Characters
+     597      103    82.75   ASCII Special Symbols
+   25497     2279    91.06   Gujarati
+     292      140    52.05   General Punctuation
+   29679     2523    91.50   Total
+
+  Errors   Marked   Correct-Generated
+     522        0   {◌ં}-{ '}
+-----------------------------------------------------------------------------
+Finished parth
+ ********************Gujarati ***** guj ***** Arial_Unicode_MS ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    3653   Characters
+      33   Errors
+   99.10%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   99.10%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      15       13        5       33   Unmarked
+      15       13        5       33   Total
+
+   Count   Missed   %Right
+     567        0   100.00   ASCII Spacing Characters
+     122        1    99.18   ASCII Special Symbols
+      32        0   100.00   ASCII Digits
+       7        1    85.71   Devanagari
+    2918       26    99.11   Gujarati
+       6        0   100.00   General Punctuation
+       1        0   100.00   Currency Symbols
+    3653       28    99.23   Total
+-----------------------------------------------------------------------------
+Finished Arial Unicode MS
+ ********************Gujarati ***** guj ***** Baloo_Bhai ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    4940   Characters
+     128   Errors
+   97.41%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.41%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      33       80       15      128   Unmarked
+      33       80       15      128   Total
+
+   Count   Missed   %Right
+     770        8    98.96   ASCII Spacing Characters
+     172        4    97.67   ASCII Special Symbols
+      28        2    92.86   ASCII Digits
+       4        0   100.00   Devanagari
+    3949       89    97.75   Gujarati
+      14        9    35.71   General Punctuation
+       3        1    66.67   Currency Symbols
+    4940      113    97.71   Total
+-----------------------------------------------------------------------------
+Finished Baloo Bhai
+ ********************Gujarati ***** guj ***** Farsan ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    4851   Characters
+    1156   Errors
+   76.17%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   76.17%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     322      647      187     1156   Unmarked
+     322      647      187     1156   Total
+
+   Count   Missed   %Right
+     753        9    98.80   ASCII Spacing Characters
+     180        7    96.11   ASCII Special Symbols
+      30        3    90.00   ASCII Digits
+       5        4    20.00   Devanagari
+    3867      940    75.69   Gujarati
+      14        6    57.14   General Punctuation
+       2        0   100.00   Currency Symbols
+    4851      969    80.02   Total
+-----------------------------------------------------------------------------
+Finished Farsan
+ ********************Gujarati ***** guj ***** FreeSerif ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    5189   Characters
+      64   Errors
+   98.77%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.77%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      28       31        5       64   Unmarked
+      28       31        5       64   Total
+
+   Count   Missed   %Right
+     810        5    99.38   ASCII Spacing Characters
+     211        2    99.05   ASCII Special Symbols
+      38        0   100.00   ASCII Digits
+       8        3    62.50   Devanagari
+    4106       42    98.98   Gujarati
+      12        7    41.67   General Punctuation
+       4        0   100.00   Currency Symbols
+    5189       59    98.86   Total
+-----------------------------------------------------------------------------
+Finished FreeSerif
+ ********************Gujarati ***** guj ***** GIST-GJOTKapila ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    5225   Characters
+      71   Errors
+   98.64%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.64%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      26       35       10       71   Unmarked
+      26       35       10       71   Total
+
+   Count   Missed   %Right
+     815        0   100.00   ASCII Spacing Characters
+     198        1    99.49   ASCII Special Symbols
+      42        1    97.62   ASCII Digits
+       7        2    71.43   Devanagari
+    4153       56    98.65   Gujarati
+       9        1    88.89   General Punctuation
+       1        0   100.00   Currency Symbols
+    5225       61    98.83   Total
+-----------------------------------------------------------------------------
+Finished GIST-GJOTKapila
+ ********************Gujarati ***** guj ***** GIST-GJOTPiyush ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    4948   Characters
+     162   Errors
+   96.73%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.73%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      45       99       18      162   Unmarked
+      45       99       18      162   Total
+
+   Count   Missed   %Right
+     773        2    99.74   ASCII Spacing Characters
+     156        8    94.87   ASCII Special Symbols
+      38        0   100.00   ASCII Digits
+       9        2    77.78   Devanagari
+    3954      120    96.97   Gujarati
+      18       12    33.33   General Punctuation
+    4948      144    97.09   Total
+
+-----------------------------------------------------------------------------
+Finished GIST-GJOTPiyush
+ ********************Gujarati ***** guj ***** Hind_Vadodara ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   22965   Characters
+     591   Errors
+   97.43%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.43%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     177      347       67      591   Unmarked
+     177      347       67      591   Total
+
+   Count   Missed   %Right
+    3595        7    99.81   ASCII Spacing Characters
+     853       21    97.54   ASCII Special Symbols
+     208        2    99.04   ASCII Digits
+      48       23    52.08   Devanagari
+   18182      442    97.57   Gujarati
+      70       26    62.86   General Punctuation
+       9        3    66.67   Currency Symbols
+   22965      524    97.72   Total
+-----------------------------------------------------------------------------
+Finished Hind Vadodara
+ ********************Gujarati ***** guj ***** Hind_Vadodara_Bold ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    4388   Characters
+      65   Errors
+   98.52%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.52%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      25       27       13       65   Unmarked
+      25       27       13       65   Total
+
+   Count   Missed   %Right
+     686        1    99.85   ASCII Spacing Characters
+     155        1    99.35   ASCII Special Symbols
+      18        0   100.00   ASCII Digits
+       9        8    11.11   Devanagari
+    3510       36    98.97   Gujarati
+       6        3    50.00   General Punctuation
+       4        3    25.00   Currency Symbols
+    4388       52    98.81   Total
+-----------------------------------------------------------------------------
+Finished Hind Vadodara Bold
+ ********************Gujarati ***** guj ***** Hind_Vadodara_Light ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    4451   Characters
+     166   Errors
+   96.27%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.27%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      61       90       15      166   Unmarked
+      61       90       15      166   Total
+
+   Count   Missed   %Right
+     696        1    99.86   ASCII Spacing Characters
+     143        7    95.10   ASCII Special Symbols
+      37        0   100.00   ASCII Digits
+       7        1    85.71   Devanagari
+    3548      136    96.17   Gujarati
+      17        6    64.71   General Punctuation
+       3        0   100.00   Currency Symbols
+    4451      151    96.61   Total
+-----------------------------------------------------------------------------
+Finished Hind Vadodara Light
+ ********************Gujarati ***** guj ***** Hind_Vadodara_Medium ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    4358   Characters
+     124   Errors
+   97.15%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.15%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      19       97        8      124   Unmarked
+      19       97        8      124   Total
+
+   Count   Missed   %Right
+     676        2    99.70   ASCII Spacing Characters
+     166        0   100.00   ASCII Special Symbols
+      56        0   100.00   ASCII Digits
+       6        1    83.33   Devanagari
+    3441      109    96.83   Gujarati
+      13        4    69.23   General Punctuation
+    4358      116    97.34   Total
+
+-----------------------------------------------------------------------------
+Finished Hind Vadodara Medium
+ ********************Gujarati ***** guj ***** Hind_Vadodara_Semi-Bold ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    5124   Characters
+      62   Errors
+   98.79%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.79%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      24       24       14       62   Unmarked
+      24       24       14       62   Total
+
+   Count   Missed   %Right
+     817        0   100.00   ASCII Spacing Characters
+     181        1    99.45   ASCII Special Symbols
+      51        0   100.00   ASCII Digits
+      12       11     8.33   Devanagari
+    4043       31    99.23   Gujarati
+      20        5    75.00   General Punctuation
+    5124       48    99.06   Total
+
+-----------------------------------------------------------------------------
+Finished Hind Vadodara Semi-Bold
+ ********************Gujarati ***** guj ***** Lohit_Gujarati ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    4834   Characters
+      56   Errors
+   98.84%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.84%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      28       23        5       56   Unmarked
+      28       23        5       56   Total
+
+   Count   Missed   %Right
+     784        1    99.87   ASCII Spacing Characters
+     161        1    99.38   ASCII Special Symbols
+      50        0   100.00   ASCII Digits
+       6        3    50.00   Devanagari
+    3816       41    98.93   Gujarati
+      15        5    66.67   General Punctuation
+       2        0   100.00   Currency Symbols
+    4834       51    98.94   Total
+-----------------------------------------------------------------------------
+Finished Lohit Gujarati
+ ********************Gujarati ***** guj ***** Mukta_Vaani ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   31481   Characters
+     786   Errors
+   97.50%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.50%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     275      400      111      786   Unmarked
+     275      400      111      786   Total
+
+   Count   Missed   %Right
+    4849       25    99.48   ASCII Spacing Characters
+    1147       11    99.04   ASCII Special Symbols
+     215        0   100.00   ASCII Digits
+      50       21    58.00   Devanagari
+   25114      563    97.76   Gujarati
+      97       52    46.39   General Punctuation
+       9        3    66.67   Currency Symbols
+   31481      675    97.86   Total
+-----------------------------------------------------------------------------
+Finished Mukta Vaani
+ ********************Gujarati ***** guj ***** Mukta_Vaani_Bold ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    5216   Characters
+      66   Errors
+   98.73%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.73%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      22       36        8       66   Unmarked
+      22       36        8       66   Total
+
+   Count   Missed   %Right
+     804        0   100.00   ASCII Spacing Characters
+     183        2    98.91   ASCII Special Symbols
+      38        0   100.00   ASCII Digits
+       4        4     0.00   Devanagari
+    4171       41    99.02   Gujarati
+      14        9    35.71   General Punctuation
+       2        2     0.00   Currency Symbols
+    5216       58    98.89   Total
+-----------------------------------------------------------------------------
+Finished Mukta Vaani Bold
+ ********************Gujarati ***** guj ***** Mukta_Vaani_Light ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    6485   Characters
+     224   Errors
+   96.55%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.55%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      68      118       38      224   Unmarked
+      68      118       38      224   Total
+
+   Count   Missed   %Right
+    1000        4    99.60   ASCII Spacing Characters
+     228        1    99.56   ASCII Special Symbols
+      35        0   100.00   ASCII Digits
+       9        0   100.00   Devanagari
+    5193      169    96.75   Gujarati
+      18       12    33.33   General Punctuation
+       2        0   100.00   Currency Symbols
+    6485      186    97.13   Total
+-----------------------------------------------------------------------------
+Finished Mukta Vaani Light
+ ********************Gujarati ***** guj ***** Mukta_Vaani_Medium ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    5206   Characters
+     146   Errors
+   97.20%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.20%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      54       75       17      146   Unmarked
+      54       75       17      146   Total
+
+   Count   Missed   %Right
+     795        7    99.12   ASCII Spacing Characters
+     198        3    98.48   ASCII Special Symbols
+      35        0   100.00   ASCII Digits
+       8        0   100.00   Devanagari
+    4148      108    97.40   Gujarati
+      19       11    42.11   General Punctuation
+       3        0   100.00   Currency Symbols
+    5206      129    97.52   Total
+-----------------------------------------------------------------------------
+Finished Mukta Vaani Medium
+ ********************Gujarati ***** guj ***** Mukta_Vaani_Semi-Bold ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    4275   Characters
+      61   Errors
+   98.57%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.57%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      23       27       11       61   Unmarked
+      23       27       11       61   Total
+
+   Count   Missed   %Right
+     656        1    99.85   ASCII Spacing Characters
+     156        1    99.36   ASCII Special Symbols
+      30        0   100.00   ASCII Digits
+       6        6     0.00   Devanagari
+    3416       39    98.86   Gujarati
+      10        2    80.00   General Punctuation
+       1        1     0.00   Currency Symbols
+    4275       50    98.83   Total
+-----------------------------------------------------------------------------
+Finished Mukta Vaani Semi-Bold
+ ********************Gujarati ***** guj ***** Mukta_Vaani_Ultra-Bold ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    6004   Characters
+     114   Errors
+   98.10%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.10%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      45       52       17      114   Unmarked
+      45       52       17      114   Total
+
+   Count   Missed   %Right
+     926        0   100.00   ASCII Spacing Characters
+     231        2    99.13   ASCII Special Symbols
+      52        0   100.00   ASCII Digits
+      11       10     9.09   Devanagari
+    4762       74    98.45   Gujarati
+      21       11    47.62   General Punctuation
+       1        0   100.00   Currency Symbols
+    6004       97    98.38   Total
+-----------------------------------------------------------------------------
+Finished Mukta Vaani Ultra-Bold
+ ********************Gujarati ***** guj ***** Nirmala_UI ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   14971   Characters
+     253   Errors
+   98.31%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.31%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      88      130       35      253   Unmarked
+      88      130       35      253   Total
+
+   Count   Missed   %Right
+    2298        1    99.96   ASCII Spacing Characters
+     573        7    98.78   ASCII Special Symbols
+     114        2    98.25   ASCII Digits
+      30       17    43.33   Devanagari
+   11910      177    98.51   Gujarati
+      37       11    70.27   General Punctuation
+       9        3    66.67   Currency Symbols
+   14971      218    98.54   Total
+-----------------------------------------------------------------------------
+Finished Nirmala UI
+ ********************Gujarati ***** guj ***** Nirmala_UI_Bold ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    5135   Characters
+      59   Errors
+   98.85%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.85%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      17       30       12       59   Unmarked
+      17       30       12       59   Total
+
+   Count   Missed   %Right
+     780        0   100.00   ASCII Spacing Characters
+     190        1    99.47   ASCII Special Symbols
+      53        1    98.11   ASCII Digits
+       9        8    11.11   Devanagari
+    4082       34    99.17   Gujarati
+      18        3    83.33   General Punctuation
+       3        0   100.00   Currency Symbols
+    5135       47    99.08   Total
+-----------------------------------------------------------------------------
+Finished Nirmala UI Bold
+ ********************Gujarati ***** guj ***** Nirmala_UI_Semi-Light ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    5099   Characters
+      87   Errors
+   98.29%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.29%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      35       39       13       87   Unmarked
+      35       39       13       87   Total
+
+   Count   Missed   %Right
+     782        1    99.87   ASCII Spacing Characters
+     211        2    99.05   ASCII Special Symbols
+      36        1    97.22   ASCII Digits
+       7        7     0.00   Devanagari
+    4052       55    98.64   Gujarati
+       9        6    33.33   General Punctuation
+       2        2     0.00   Currency Symbols
+    5099       74    98.55   Total
+-----------------------------------------------------------------------------
+Finished Nirmala UI Semi-Light
+ ********************Gujarati ***** guj ***** Rekha_Medium ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    4325   Characters
+      49   Errors
+   98.87%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.87%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      16       25        8       49   Unmarked
+      16       25        8       49   Total
+
+   Count   Missed   %Right
+     692        0   100.00   ASCII Spacing Characters
+     156        0   100.00   ASCII Special Symbols
+      31        1    96.77   ASCII Digits
+       3        1    66.67   Devanagari
+    3431       36    98.95   Gujarati
+      11        2    81.82   General Punctuation
+       1        1     0.00   Currency Symbols
+    4325       41    99.05   Total
+-----------------------------------------------------------------------------
+Finished Rekha Medium
+ ********************Gujarati ***** guj ***** SakalBharati ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    5279   Characters
+     160   Errors
+   96.97%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.97%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      80       67       13      160   Unmarked
+      80       67       13      160   Total
+
+   Count   Missed   %Right
+     825        6    99.27   ASCII Spacing Characters
+     189        6    96.83   ASCII Special Symbols
+      53        0   100.00   ASCII Digits
+       8        0   100.00   Devanagari
+    4186      130    96.89   Gujarati
+      15        5    66.67   General Punctuation
+       3        0   100.00   Currency Symbols
+    5279      147    97.22   Total
+-----------------------------------------------------------------------------
+Finished SakalBharati
+ ********************Gujarati ***** guj ***** Shruti ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    5104   Characters
+      44   Errors
+   99.14%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   99.14%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      15       18       11       44   Unmarked
+      15       18       11       44   Total
+
+   Count   Missed   %Right
+     793        0   100.00   ASCII Spacing Characters
+     178        0   100.00   ASCII Special Symbols
+      55        1    98.18   ASCII Digits
+       6        0   100.00   Devanagari
+    4061       30    99.26   Gujarati
+       7        2    71.43   General Punctuation
+       4        0   100.00   Currency Symbols
+    5104       33    99.35   Total
+-----------------------------------------------------------------------------
+Finished Shruti
+ ********************Gujarati ***** guj ***** aakar_Medium ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    5962   Characters
+      98   Errors
+   98.36%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.36%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      30       50       18       98   Unmarked
+      30       50       18       98   Total
+
+   Count   Missed   %Right
+     892        0   100.00   ASCII Spacing Characters
+     208        0   100.00   ASCII Special Symbols
+      64        1    98.44   ASCII Digits
+      14       14     0.00   Devanagari
+    4771       60    98.74   Gujarati
+      12        5    58.33   General Punctuation
+       1        0   100.00   Currency Symbols
+    5962       80    98.66   Total
+-----------------------------------------------------------------------------
+Finished aakar Medium
+ ********************Gujarati ***** guj ***** padmaa-Bold.1.1_Bold ********************
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    4961   Characters
+      79   Errors
+   98.41%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.41%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      27       40       12       79   Unmarked
+      27       40       12       79   Total
+
+   Count   Missed   %Right
+     770        1    99.87   ASCII Spacing Characters
+     188        3    98.40   ASCII Special Symbols
+      48        0   100.00   ASCII Digits
+       8        8     0.00   Devanagari
+    3936       50    98.73   Gujarati
+      10        5    50.00   General Punctuation
+       1        0   100.00   Currency Symbols
+    4961       67    98.65   Total
+-----------------------------------------------------------------------------
+Finished padmaa-Bold.1.1 Bold
+-----------------------------------------------------------------------------
+Finished guj
+real 2569.75
+user 2434.47
+sys 51.11
