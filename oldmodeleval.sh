@@ -27,7 +27,7 @@ for PREFIX in $LISTEVALMODEL  ; do
                   cat "${LSTMFNAME%.*}"-${OLDMODEL}.txt   >>  "$REPORTSPATH/ocr-${OLDMODEL}-$PREFIX-${FONTNAME// /_}.txt"
             fi
         done < "$LISTEVAL"
-         ## accuracy "$REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt"  "$REPORTSPATH/ocr-${OLDMODEL}-$PREFIX-${FONTNAME// /_}.txt"  > "$REPORTSPATH/report_${OLDMODEL}-$PREFIX-${FONTNAME// /_}.txt"
+         accuracy "$REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt"  "$REPORTSPATH/ocr-${OLDMODEL}-$PREFIX-${FONTNAME// /_}.txt"  > "$REPORTSPATH/report_${OLDMODEL}-$PREFIX-${FONTNAME// /_}.txt"
         ## java -cp ~/ocrevaluation/ocrevaluation.jar  eu.digitisation.Main  -gt "$REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt"  -ocr "$REPORTSPATH/ocr-${OLDMODEL}-$PREFIX-${FONTNAME// /_}.txt"   -e UTF-8   -o "$REPORTSPATH/report_${OLDMODEL}-$PREFIX-${FONTNAME// /_}.html"  1>/dev/null 2>&1
         head -26 "$REPORTSPATH/report_${OLDMODEL}-$PREFIX-${FONTNAME// /_}.txt"
         cat "$REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt"  >> $REPORTSPATH/gt-$PREFIX-ALL.txt 

@@ -1,6 +1,6 @@
 #!/bin/sh
 SCRIPTPATH=`pwd`
-OLDMODELS=$(ls data/*.traineddata)
+OLDMODELS=$(ls data/Guj*.traineddata)
 EVALMODEL=guj
 for OLDTRAINEDDATA in $OLDMODELS  ; do
     OLDMODEL="$(basename -- $OLDTRAINEDDATA)"

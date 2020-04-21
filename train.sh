@@ -9,7 +9,6 @@ STARTMODEL=Gujarati
 BUILDTYPE=Layer
 
 mkdir -p data
-### tar -C data -xvf $MODEL.tgz
 
 cp ~/langdata_lstm/Gujarati.unicharset  data/Gujarati.unicharset
 cp ~/langdata_lstm/Latin.unicharset  data/Latin.unicharset
@@ -23,7 +22,6 @@ rm -rf data/$MODEL
 mkdir -p data/$MODEL
 cp ~/langdata_lstm/guj/guj.punc data/$MODEL/$MODEL.punc
 cp ~/langdata_lstm/guj/guj.numbers data/$MODEL/$MODEL.numbers
-cp ~/langdata_lstm/guj/guj.config data/$MODEL/$MODEL.config
 
 for f in $GTDIR/*/*.lstmf; do ls -1 "${f}"; done  > /tmp/$MODEL-all-lstmf
 python shuffle.py < /tmp/$MODEL-all-lstmf > $SCRIPTPATH/data/$MODEL/all-lstmf
@@ -34,6 +32,8 @@ Version_Str="$MODEL:shreeshrii`date +%Y%m%d`:from:"
 sed -e "s/^/$Version_Str/" $SCRIPTPATH/data/$STARTMODEL/$STARTMODEL.version > $MODEL.version
 
 cd ../..
+
+make  lists MODEL_NAME=$MODEL 
 
 nohup make  training  \
 MODEL_NAME=$MODEL  \
@@ -46,4 +46,4 @@ LAYER_NET_SPEC="[Lfx 128 O1c1]" \
 LAYER_APPEND_INDEX=5 \
 RATIO_TRAIN=0.90 \
 DEBUG_INTERVAL=-1 \
-MAX_ITERATIONS=100000 > train-$MODEL-$BUILDTYPE.log & 
+EPOCHS=20 > train-$MODEL-$BUILDTYPE.log & 

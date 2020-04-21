@@ -2,7 +2,7 @@
 # nohup bash checkpointeval.sh > reports/checkpointeval.txt & 
 
 SCRIPTPATH=`pwd`
-LANG=vimala
+LANG=guj
 HEADCOUNT=1
 IMGEXT=png
 mkdir -p $SCRIPTPATH/reports
@@ -18,7 +18,7 @@ done < "$CHECKPOINT_FILES"
 TRAINEDDATAFILES=data/$LANG/tessdata_fast/*.traineddata
 for TRAINEDDATA in $TRAINEDDATAFILES  ; do
      TRAINEDDATAFILE="$(basename -- $TRAINEDDATA)"
-      echo -e  "------------------------------------------------------------------- Unassigned "
+      echo -e  "------------------------------------------------------------------- Gujarati "
            for PREFIX in $LANG ; do
 			   FONTLIST=$SCRIPTPATH/langdata/$PREFIX.fontslist.txt
                LISTEVAL=$SCRIPTPATH/data/$PREFIX/list.eval
@@ -27,7 +27,7 @@ for TRAINEDDATA in $TRAINEDDATAFILES  ; do
                mkdir $REPORTSPATH
                while IFS= read -r FONTNAME
                do
-                   echo -e  "------------------------------------------------------------------- Unassigned"  $PREFIX-${FONTNAME// /_}-${TRAINEDDATAFILE%.*}
+                   echo -e  "------------------------------------------------------------------- Gujarati"  $PREFIX-${FONTNAME// /_}-${TRAINEDDATAFILE%.*}
                     while IFS= read -r LSTMFNAME
                     do
                         ###    echo ${LSTMFNAME%.*}
@@ -59,4 +59,4 @@ for TRAINEDDATA in $TRAINEDDATAFILES  ; do
     --verbosity 0  2>&1 |  egrep 'OCR|Truth' 
 done
 
-egrep 'Unassigned|Accuracy$|Digits|Punctuation' reports/checkpointeval.txt > reports/checkpointeval-summary.txt
+egrep 'Gujarati|Accuracy$|Digits|Punctuation' reports/checkpointeval.txt > reports/checkpointeval-summary.txt
