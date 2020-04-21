@@ -1,0 +1,27 @@
+Arial Unicode MS
+Baloo Bhai
+Farsan
+FreeSerif
+GIST-GJOTKapila
+GIST-GJOTPiyush
+Hind Vadodara
+Hind Vadodara Bold
+Hind Vadodara Light
+Hind Vadodara Medium
+Hind Vadodara Semi-Bold
+Lohit Gujarati
+Mukta Vaani
+Mukta Vaani Bold
+Mukta Vaani Light
+Mukta Vaani Medium
+Mukta Vaani Semi-Bold
+Mukta Vaani Ultra-Bold
+Nirmala UI
+Nirmala UI Bold
+Nirmala UI Semi-Light
+Rekha Medium
+SakalBharati
+ShranandTwo
+Shruti
+aakar Medium
+padmaa-Bold.1.1 Bold
