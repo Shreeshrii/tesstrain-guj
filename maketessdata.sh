@@ -1,6 +1,6 @@
 #!/bin/bash
 MODEL=guj
-BUILDTYPE=Layer
+BUILDTYPE=Plus
 lstmtraining \
  	--stop_training \
  	--continue_from data/${MODEL}/checkpoints/${MODEL}${BUILDTYPE}_checkpoint \

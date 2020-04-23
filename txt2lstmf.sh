@@ -62,9 +62,13 @@ cp ${traininginput} ${trainingtext}
                   *) echo "Signal number $last is not processed"
                      ;;
              esac
-             cp $linetext  $prefix/${fontname// /_}.$cnt.exp$exp.gt.txt
+             # generate ground truth from text2image generated box files - takes care of unrendered words
+             python3 generate_gt_from_box.py -b $prefix/${fontname// /_}.$cnt.exp$exp.box -t $prefix/${fontname// /_}.$cnt.exp$exp.gt.txt 
+             rm $prefix/${fontname// /_}.$cnt.exp$exp.box
+             # generate wordstrbox files using trimmed images and ground truth files
              python3 generate_tif2png_wordstr_box.py -i $prefix/${fontname// /_}.$cnt.exp$exp.tif -t $prefix/${fontname// /_}.$cnt.exp$exp.gt.txt > $prefix/${fontname// /_}.$cnt.exp$exp.box
              rm $prefix/${fontname// /_}.$cnt.exp$exp.tif
+             # generate lstmf files for single line images - use --psm 13
              OMP_THREAD_LIMIT=1 tesseract $prefix/${fontname// /_}.$cnt.exp$exp.png $prefix/${fontname// /_}.$cnt.exp$exp  --psm 13 --dpi 300 lstm.train
          done
         ## ls -1  $prefix/*${fontname// /_}.*.lstmf > data/all-${fontname// /_}-$lang-lstmf
