@@ -7,5 +7,5 @@ lstmtraining \
     --traineddata data/${MODEL}/${MODEL}.traineddata \
  	--model_output data/${MODEL}${BUILDTYPE}.traineddata
 	
-make  traineddata  MODEL_NAME=$MODEL  
+## make  traineddata  MODEL_NAME=$MODEL  
 

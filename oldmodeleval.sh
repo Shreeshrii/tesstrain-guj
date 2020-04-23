@@ -35,7 +35,7 @@ for PREFIX in $LISTEVALMODEL  ; do
         echo -e  "-----------------------------------------------------------------------------"  
         echo "Finished $FONTNAME"
         done < "$FONTLIST"
-        accuracy  $REPORTSPATH/gt-$PREFIX-ALL.txt   $REPORTSPATH/ocr-${OLDMODEL}-$PREFIX-ALL.txt  > "$REPORTSPATH/report-accuracy${OLDMODEL}-$PREFIX-ALL.txt"
+        accuracy  $REPORTSPATH/gt-$PREFIX-ALL.txt   $REPORTSPATH/ocr-${OLDMODEL}-$PREFIX-ALL.txt  > "$REPORTSPATH/report-accuracy-${OLDMODEL}-$PREFIX-ALL.txt"
         wordacc  $REPORTSPATH/gt-$PREFIX-ALL.txt   $REPORTSPATH/ocr-${OLDMODEL}-$PREFIX-ALL.txt  > "$REPORTSPATH/report-wordacc-${OLDMODEL}-$PREFIX-ALL.txt"
         java -cp ~/ocrevaluation/ocrevaluation.jar  eu.digitisation.Main  -gt $REPORTSPATH/gt-$PREFIX-ALL.txt  -ocr $REPORTSPATH/ocr-${OLDMODEL}-$PREFIX-ALL.txt  -e UTF-8   -o "$REPORTSPATH/report-accuracy-${OLDMODEL}-$PREFIX-ALL.html"      1>/dev/null 2>&1
         echo -e  "-----------------------------------------------------------------------------" 

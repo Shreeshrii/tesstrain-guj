@@ -1,8 +1,8 @@
 #!/bin/bash
 bash maketessdata.sh
-my_files=$(ls test/*ShranandTwo{*.jpg,*.tif,*.png,*.gif})
+my_files=$(ls test/J{*.jpg,*.tif,*.png,*.gif})
 rm test/ALL*
-for lang in guj Gujarati ShranandTwoLayer ; do
+for lang in guj Gujarati gujLayer ; do
     for my_file in ${my_files}; do
             echo -e "\n ***** "  ${my_file%.*} "LANG" $lang   "****"
             OMP_THREAD_LIMIT=1 time -p tesseract $my_file  "${my_file%.*}-$lang" --oem 1 --psm 6 -l "$lang" --tessdata-dir data --dpi 300 -c preserve_interword_spaces=1 -c page_separator=''

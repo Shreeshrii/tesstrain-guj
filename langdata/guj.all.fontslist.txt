@@ -1,5 +1,10 @@
+AMDAVAD UNICODE
 Arial Unicode MS
+BHUJ UNICODE
 Baloo Bhai
+Bhavnagar Unicode
+Ekatra
+Ekatra Bold
 Farsan
 FreeSerif
 GIST-GJOTKapila
@@ -9,6 +14,7 @@ Hind Vadodara Bold
 Hind Vadodara Light
 Hind Vadodara Medium
 Hind Vadodara Semi-Bold
+Kalapi
 Lohit Gujarati
 Mukta Vaani
 Mukta Vaani Bold
@@ -19,9 +25,15 @@ Mukta Vaani Ultra-Bold
 Nirmala UI
 Nirmala UI Bold
 Nirmala UI Semi-Light
+RAJKOT UNICODE
+RaghuGujarati
 Rekha Medium
 SakalBharati
 ShranandTwo
 Shruti
+Shruti Bold
+Surat Unicode
+VADODARA UNICODE
+VIJAYA UNICODE
 aakar Medium
 padmaa-Bold.1.1 Bold

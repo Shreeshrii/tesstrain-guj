@@ -33,7 +33,7 @@ sed -e "s/^/$Version_Str/" $SCRIPTPATH/data/$STARTMODEL/$STARTMODEL.version > $M
 
 cd ../..
 
-make  lists MODEL_NAME=$MODEL 
+make  lists MODEL_NAME=$MODEL RATIO_TRAIN=0.80
 
 nohup make  training  \
 MODEL_NAME=$MODEL  \
@@ -44,6 +44,6 @@ GROUND_TRUTH_DIR=$SCRIPTPATH/gt \
 START_MODEL=$STARTMODEL \
 LAYER_NET_SPEC="[Lfx 128 O1c1]" \
 LAYER_APPEND_INDEX=5 \
-RATIO_TRAIN=0.90 \
+RATIO_TRAIN=0.80 \
 DEBUG_INTERVAL=-1 \
 EPOCHS=20 > train-$MODEL-$BUILDTYPE.log & 
