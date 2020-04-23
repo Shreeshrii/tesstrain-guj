@@ -1,0 +1,9 @@
+*.log
+data/*/checkpoints
+data/*/tessdata*
+data/Gujarati
+gt-unused
+nohup.out
+run*
+test
+tmp*

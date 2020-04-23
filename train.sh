@@ -6,7 +6,7 @@ SCRIPTPATH=`pwd`
 GTDIR=gt
 MODEL=guj
 STARTMODEL=Gujarati
-BUILDTYPE=Layer
+BUILDTYPE=Plus
 
 mkdir -p data
 
