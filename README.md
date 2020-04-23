@@ -1,6 +1,15 @@
 # tesstrain-guj
 Tesseract 5 finetuning for Gujarati
 
+## Software Used
+
+* tesseract-ocr
+* tesstrain
+* [ISRI Analytic Tools for OCR Evaluation with UTF-8 support](https://github.com/eddieantonio/ocreval) 
+* [The ocrevalUAtion tool](https://sites.google.com/site/textdigitisation/ocrevaluation)
+* [create_dictdata from pytesstrain](https://github.com/wincentbalin/pytesstrain)
+* [ketos linegen from kraken](https://github.com/mittagessen/kraken)
+
 ## Making  Synthetic Training Data from Fonts
 
 ### Using kraken for quick generation of test data
@@ -12,13 +21,29 @@ Tesseract 5 finetuning for Gujarati
 ### Using tesseract and text2image with varying degrees of degradation
 
 * txt2lstmf.sh
+* uses `generate_gt_from_box.py`
 * uses `generate_wordstr_box.py`
 
 ## Finetune Training
 
 ### Plus-Minus training from Gujarati.traineddata
 
-* train.sh (BUILD_TYPE=Plus)
+* train.sh 
+
+```
+make  lists MODEL_NAME=guj RATIO_TRAIN=0.80
+
+nohup make  training  \
+MODEL_NAME=guj  \
+LANG_TYPE=Indic \
+BUILD_TYPE=Plus  \
+TESSDATA=data \
+GROUND_TRUTH_DIR=gt \
+START_MODEL=Gujarati \
+RATIO_TRAIN=0.80 \
+DEBUG_INTERVAL=-1 \
+EPOCHS=20 > train-guj-$BUILDTYPE.log & 
+```
 
 ```
 unicharset_extractor --output_unicharset "data/guj/my.unicharset" --norm_mode 2 "data/guj/all-gt"
