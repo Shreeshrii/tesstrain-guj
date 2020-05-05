@@ -3,14 +3,24 @@ Tesseract 5 finetuning for Gujarati
 
 ## Software Used
 
-* tesseract-ocr
-* tesstrain
+* [tesseract-ocr](https://github.com/tesseract-ocr)
+* [tesstrain](https://github.com/tesseract-ocr/tesstrain)
 * [ISRI Analytic Tools for OCR Evaluation with UTF-8 support](https://github.com/eddieantonio/ocreval) 
 * [The ocrevalUAtion tool](https://sites.google.com/site/textdigitisation/ocrevaluation)
 * [create_dictdata from pytesstrain](https://github.com/wincentbalin/pytesstrain)
 * [ketos linegen from kraken](https://github.com/mittagessen/kraken)
 
 ## Making  Synthetic Training Data from Fonts
+
+### Training Text sources
+
+* [langdata_lstm](https://github.com/tesseract-ocr/langdata_lstm)
+* Sample text from Parth Shah
+
+### Fonts used
+
+* [guj.fontslist](https://github.com/Shreeshrii/tesstrain-guj/blob/master/langdata/guj.fontslist.txt)
+* [noanusvar.fontlist for custom Gujarati font ShranandTwo](https://github.com/Shreeshrii/tesstrain-guj/blob/master/langdata/noanusvar.fontslist.txt)
 
 ### Using kraken for quick generation of test data
 

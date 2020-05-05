@@ -1,0 +1,198 @@
+ ********************Gujarati ***** guj ***** padmaa-Bold.1.1_Bold ********************
+   99.07%  Accuracy
+      29        0   100.00   ASCII Digits
+    3510       26    99.26   Gujarati
+       8        2    75.00   General Punctuation
+ ********************Gujarati ***** guj ***** aakar_Medium ********************
+   99.37%  Accuracy
+      44        0   100.00   ASCII Digits
+    4237       25    99.41   Gujarati
+       9        2    77.78   General Punctuation
+ ********************Gujarati ***** guj ***** VIJAYA_UNICODE ********************
+   98.82%  Accuracy
+      42        0   100.00   ASCII Digits
+    3492       35    99.00   Gujarati
+       5        4    20.00   General Punctuation
+ ********************Gujarati ***** guj ***** Surat_Unicode ********************
+   97.28%  Accuracy
+      62        2    96.77   ASCII Digits
+       7        3    57.14   Devanagari
+    3726       96    97.42   Gujarati
+      10        3    70.00   General Punctuation
+ ********************Gujarati ***** guj ***** Shruti_Bold ********************
+   99.48%  Accuracy
+      37        0   100.00   ASCII Digits
+       5        0   100.00   Devanagari
+    3061       11    99.64   Gujarati
+       6        2    66.67   General Punctuation
+ ********************Gujarati ***** guj ***** Shrikhand ********************
+   96.04%  Accuracy
+      56        3    94.64   ASCII Digits
+       1        0   100.00   Devanagari
+    4217      183    95.66   Gujarati
+      15        2    86.67   General Punctuation
+ ********************Gujarati ***** guj ***** SakalBharati ********************
+   98.36%  Accuracy
+      61        0   100.00   ASCII Digits
+       7        1    85.71   Devanagari
+    4636       64    98.62   Gujarati
+       2        0   100.00   General Punctuation
+ ********************Gujarati ***** guj ***** Rekha_Medium ********************
+   99.10%  Accuracy
+      44        0   100.00   ASCII Digits
+    4534       42    99.07   Gujarati
+      12        1    91.67   General Punctuation
+ ********************Gujarati ***** guj ***** RaghuGujarati ********************
+   99.00%  Accuracy
+      42        4    90.48   ASCII Digits
+    3588       29    99.19   Gujarati
+Finished RaghuGujarati
+ ********************Gujarati ***** guj ***** RAJKOT_UNICODE ********************
+   98.76%  Accuracy
+      30        0   100.00   ASCII Digits
+    3892       44    98.87   Gujarati
+       8        1    87.50   General Punctuation
+ ********************Gujarati ***** guj ***** Nirmala_UI_Bold ********************
+   99.47%  Accuracy
+      33        0   100.00   ASCII Digits
+    3440       18    99.48   Gujarati
+      11        1    90.91   General Punctuation
+ ********************Gujarati ***** guj ***** Nirmala_UI ********************
+   99.15%  Accuracy
+      89        0   100.00   ASCII Digits
+       2        0   100.00   Devanagari
+    7194       56    99.22   Gujarati
+      22        5    77.27   General Punctuation
+ ********************Gujarati ***** guj ***** Mukta_Vaani_Ultra-Bold ********************
+   97.64%  Accuracy
+      59        0   100.00   ASCII Digits
+       5        0   100.00   Devanagari
+    4500       36    99.20   Gujarati
+       8        0   100.00   General Punctuation
+ ********************Gujarati ***** guj ***** Mukta_Vaani_Semi-Bold ********************
+   99.23%  Accuracy
+      42        0   100.00   ASCII Digits
+       3        1    66.67   Devanagari
+    4035       27    99.33   Gujarati
+      11        5    54.55   General Punctuation
+ ********************Gujarati ***** guj ***** Mukta_Vaani_Medium ********************
+   98.84%  Accuracy
+      26        0   100.00   ASCII Digits
+       5        0   100.00   Devanagari
+    4255       34    99.20   Gujarati
+       4        1    75.00   General Punctuation
+ ********************Gujarati ***** guj ***** Mukta_Vaani_Bold ********************
+   98.85%  Accuracy
+      55        1    98.18   ASCII Digits
+       1        0   100.00   Devanagari
+    3654       27    99.26   Gujarati
+      10        1    90.00   General Punctuation
+ ********************Gujarati ***** guj ***** Mukta_Vaani ********************
+   98.61%  Accuracy
+     213        1    99.53   ASCII Digits
+      15        1    93.33   Devanagari
+   20032      157    99.22   Gujarati
+      37        8    78.38   General Punctuation
+ ********************Gujarati ***** guj ***** Mogra ********************
+   97.08%  Accuracy
+      41        1    97.56   ASCII Digits
+       4        1    75.00   Devanagari
+    4086      132    96.77   Gujarati
+       4        2    50.00   General Punctuation
+ ********************Gujarati ***** guj ***** Lohit_Gujarati ********************
+   99.40%  Accuracy
+      31        0   100.00   ASCII Digits
+       7        0   100.00   Devanagari
+    4223       29    99.31   Gujarati
+       7        0   100.00   General Punctuation
+Finished Lohit Gujarati
+ ********************Gujarati ***** guj ***** Kalapi ********************
+   98.41%  Accuracy
+      62        0   100.00   ASCII Digits
+       3        0   100.00   Devanagari
+    4956       66    98.67   Gujarati
+      12        1    91.67   General Punctuation
+ ********************Gujarati ***** guj ***** Hind_Vadodara_Semi-Bold ********************
+   98.62%  Accuracy
+      43        0   100.00   ASCII Digits
+       6        0   100.00   Devanagari
+    3874       53    98.63   Gujarati
+       6        3    50.00   General Punctuation
+ ********************Gujarati ***** guj ***** Hind_Vadodara_Medium ********************
+   98.86%  Accuracy
+      46        0   100.00   ASCII Digits
+       2        0   100.00   Devanagari
+    3998       47    98.82   Gujarati
+      11        1    90.91   General Punctuation
+ ********************Gujarati ***** guj ***** Hind_Vadodara_Bold ********************
+   98.88%  Accuracy
+      59        3    94.92   ASCII Digits
+       1        0   100.00   Devanagari
+    4535       46    98.99   Gujarati
+       8        4    50.00   General Punctuation
+ ********************Gujarati ***** guj ***** Hind_Vadodara ********************
+   98.86%  Accuracy
+     204        3    98.53   ASCII Digits
+      10        0   100.00   Devanagari
+   15607      173    98.89   Gujarati
+      31        9    70.97   General Punctuation
+ ********************Gujarati ***** guj ***** GIST-GJOTPiyush ********************
+   98.62%  Accuracy
+      33        0   100.00   ASCII Digits
+       8        2    75.00   Devanagari
+    4488       61    98.64   Gujarati
+       9        3    66.67   General Punctuation
+ ********************Gujarati ***** guj ***** GIST-GJOTKapila ********************
+   99.25%  Accuracy
+      57        0   100.00   ASCII Digits
+       3        0   100.00   Devanagari
+    4598       34    99.26   Gujarati
+       2        2     0.00   General Punctuation
+ ********************Gujarati ***** guj ***** FreeSerif ********************
+   99.25%  Accuracy
+      68        0   100.00   ASCII Digits
+       3        1    66.67   Devanagari
+    4277       31    99.28   Gujarati
+       8        1    87.50   General Punctuation
+ ********************Gujarati ***** guj ***** Farsan ********************
+   98.25%  Accuracy
+      39        4    89.74   ASCII Digits
+       2        0   100.00   Devanagari
+    3047       57    98.13   Gujarati
+       3        0   100.00   General Punctuation
+ ********************Gujarati ***** guj ***** Ekatra_Bold ********************
+   98.19%  Accuracy
+      42        2    95.24   ASCII Digits
+       1        0   100.00   Devanagari
+    3716       65    98.25   Gujarati
+       7        3    57.14   General Punctuation
+ ********************Gujarati ***** guj ***** Ekatra ********************
+   98.83%  Accuracy
+      82        2    97.56   ASCII Digits
+       3        0   100.00   Devanagari
+    7653       89    98.84   Gujarati
+      16        4    75.00   General Punctuation
+ ********************Gujarati ***** guj ***** Bhavnagar_Unicode ********************
+   99.00%  Accuracy
+      38        2    94.74   ASCII Digits
+       3        0   100.00   Devanagari
+    3787       31    99.18   Gujarati
+       6        4    33.33   General Punctuation
+ ********************Gujarati ***** guj ***** Baloo_Bhai ********************
+   98.12%  Accuracy
+      73        3    95.89   ASCII Digits
+       1        0   100.00   Devanagari
+    4279       36    99.16   Gujarati
+      10        2    80.00   General Punctuation
+ ********************Gujarati ***** guj ***** BHUJ_UNICODE ********************
+   98.60%  Accuracy
+      56        1    98.21   ASCII Digits
+       1        0   100.00   Devanagari
+    3873       41    98.94   Gujarati
+       6        1    83.33   General Punctuation
+ ********************Gujarati ***** guj ***** Arial_Unicode_MS ********************
+   99.03%  Accuracy
+      49        0   100.00   ASCII Digits
+       2        1    50.00   Devanagari
+    3975       36    99.09   Gujarati
+       6        2    66.67   General Punctuation

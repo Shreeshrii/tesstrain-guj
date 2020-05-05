@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 
 import argparse
 import io
@@ -19,12 +19,12 @@ args = arg_parser.parse_args()
 
 #
 # main
-# uses emoji "\U0001f600" for substitution to  get the space delimiters 
+# uses Greek Psi "Ψ" for substitution to get the space delimiters 
 #
 
 gtstring = io.StringIO()
 gtfile = open(args.txt, "w", encoding='utf-8')
 with io.open(args.box, "r", encoding='utf-8') as boxfile:
-        print(''.join(line.replace("  ","\U0001f600 ").split(' ',1)[0] for line in boxfile if line), file = gtstring)
-gt = gtstring.getvalue().replace("\U0001f600"," ").replace("\t","\n")
+        print(''.join(line.replace("  ","Ψ ").split(' ',1)[0] for line in boxfile if line), file = gtstring)
+gt = gtstring.getvalue().replace("Ψ"," ").replace("\t","\n")
 print(gt, file = gtfile)

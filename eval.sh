@@ -1,6 +1,10 @@
 #!/bin/sh
+# bash eval.sh Gujarati_fast
+# bash eval.sh gujMinus_fast
+ 
+bash maketessdata.sh
 SCRIPTPATH=`pwd`
-EVALMODEL=guj
-for OLDMODEL in Gujarati gujPlus  ; do
-     nohup time -p bash  oldmodeleval.sh ${OLDMODEL} $EVALMODEL > reports/$EVALMODEL-eval-${OLDMODEL}.txt & 
+LISTEVAL=guj
+for OLDMODEL in $1  ; do
+     nohup time -p bash  oldmodeleval.sh $OLDMODEL $LISTEVAL > reports/$LISTEVAL-eval-$OLDMODEL.txt & 
 done

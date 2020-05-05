@@ -43,3 +43,5 @@ for PREFIX in $LISTEVALMODEL  ; do
 done 
 
 egrep 'Gujarati|Accuracy$|Digits|Punctuation|Letters|Devanagari' reports/$LISTEVALMODEL-eval-${OLDMODEL}.txt > reports/$LISTEVALMODEL-eval-${OLDMODEL}-summary.txt
+
+awk '$3 !=  100.00 { print $4 }' "$REPORTSPATH/report-wordacc-${OLDMODEL}-$PREFIX-ALL.txt" > $/SCRIPTPATH/langdata/wordacc-error-${OLDMODEL}-$PREFIX.txt
